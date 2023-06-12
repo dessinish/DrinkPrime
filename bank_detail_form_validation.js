@@ -1,9 +1,9 @@
   $(document).ready(function() {
-    let accTag = $("#account-no");
+    let accTag = $("#account_number");
     let accError = $("#account-no-error");
-    let ifscTag = $("#IFSC");
+    let ifscTag = $("#ifsc_code");
     let ifscError = $("#ifsc-error");
-    let upiTag = $("#upi-id");
+    let upiTag = $("#upi_id");
     let upiError = $("#upi-id-error");
     let isValid;
     // Get references to the radio buttons and wrap elements
